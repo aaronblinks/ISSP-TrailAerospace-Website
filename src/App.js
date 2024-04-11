@@ -112,6 +112,7 @@ function App() {
   const highestValues = findHighestValues(UserData);
   delete highestValues['Flight Duration'];
   delete highestValues['Reward'];
+  delete highestValues['time'];
 
   
   return (
